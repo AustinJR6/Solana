@@ -5,7 +5,7 @@ import React, { useState } from 'react';
 import { Alert, Button, Image, StyleSheet, TextInput, View } from 'react-native';
 import { db, storage } from '../../firebase';
 
-export default function FileUploadScreen() {
+export default function FileUpload() {
   const [imageUri, setImageUri] = useState<string | null>(null);
   const [customerId, setCustomerId] = useState('');
 
@@ -88,3 +88,4 @@ const styles = StyleSheet.create({
     borderRadius: 10,
   },
 });
+

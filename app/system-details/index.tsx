@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { Alert, Button, StyleSheet, Text, TextInput, View } from 'react-native';
 import { db } from '../../firebase';
 
-export default function SystemDetailsScreen() {
+export default function SystemDetails() {
   const [customerId, setCustomerId] = useState('');
   const [panelModel, setPanelModel] = useState('');
   const [inverter, setInverter] = useState('');
